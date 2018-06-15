@@ -1,0 +1,26 @@
+<annotation>
+	<folder>120r</folder>
+	<filename>001490.jpg</filename>
+	<path>C:\Users\NEAR6\Desktop\120r\001490.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>588</width>
+		<height>331</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Speed_limit_120km</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>238</xmin>
+			<ymin>10</ymin>
+			<xmax>351</xmax>
+			<ymax>140</ymax>
+		</bndbox>
+	</object>
+</annotation>

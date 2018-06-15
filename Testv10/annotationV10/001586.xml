@@ -1,0 +1,26 @@
+<annotation>
+	<folder>btlr</folder>
+	<filename>001586.jpg</filename>
+	<path>C:\Users\NEAR6\Desktop\btlr\001586.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>319</width>
+		<height>470</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Bend_to_left</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>91</ymin>
+			<xmax>319</xmax>
+			<ymax>357</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>nutr</folder>
+	<filename>002039.jpg</filename>
+	<path>C:\Users\NEAR6\Desktop\nutr\002039.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>262</width>
+		<height>192</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>No_u_turn</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>35</xmin>
+			<ymin>46</ymin>
+			<xmax>105</xmax>
+			<ymax>98</ymax>
+		</bndbox>
+	</object>
+</annotation>

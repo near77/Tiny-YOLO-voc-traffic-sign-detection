@@ -1,0 +1,26 @@
+<annotation>
+	<folder>v66r</folder>
+	<filename>000663.jpg</filename>
+	<path>C:\Users\NEAR6\Desktop\v66r\000663.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>218</width>
+		<height>231</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Speed_limit_80km</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>72</xmin>
+			<ymin>44</ymin>
+			<xmax>151</xmax>
+			<ymax>121</ymax>
+		</bndbox>
+	</object>
+</annotation>

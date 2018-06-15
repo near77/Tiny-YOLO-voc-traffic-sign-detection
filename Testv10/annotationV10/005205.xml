@@ -1,0 +1,26 @@
+<annotation>
+	<folder>5201_Narrow_road</folder>
+	<filename>005205.png</filename>
+	<path>C:\Users\USER\Desktop\python\darkflow\train_images\5201_Narrow_road\005205.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>440</width>
+		<height>458</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Narrow_road</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>16</xmin>
+			<ymin>47</ymin>
+			<xmax>410</xmax>
+			<ymax>388</ymax>
+		</bndbox>
+	</object>
+</annotation>

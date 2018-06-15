@@ -1,0 +1,26 @@
+<annotation>
+	<folder>btrr</folder>
+	<filename>001325.JPG</filename>
+	<path>C:\Users\NEAR6\Desktop\btrr\001325.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>309</width>
+		<height>470</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Bend_to_right</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>24</xmin>
+			<ymin>203</ymin>
+			<xmax>290</xmax>
+			<ymax>427</ymax>
+		</bndbox>
+	</object>
+</annotation>

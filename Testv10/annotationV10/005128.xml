@@ -1,0 +1,26 @@
+<annotation>
+	<folder>5101_Double_bend_right</folder>
+	<filename>005128.png</filename>
+	<path>C:\Users\USER\Desktop\python\darkflow\train_images\5101_Double_bend_right\005128.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>301</width>
+		<height>167</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Double_bend_right</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>103</xmin>
+			<ymin>29</ymin>
+			<xmax>226</xmax>
+			<ymax>141</ymax>
+		</bndbox>
+	</object>
+</annotation>

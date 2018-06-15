@@ -1,0 +1,26 @@
+<annotation>
+	<folder>noenr</folder>
+	<filename>001710.jpg</filename>
+	<path>C:\Users\NEAR6\Desktop\noenr\001710.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>636</width>
+		<height>382</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>No_entry</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>45</xmin>
+			<ymin>3</ymin>
+			<xmax>198</xmax>
+			<ymax>154</ymax>
+		</bndbox>
+	</object>
+</annotation>

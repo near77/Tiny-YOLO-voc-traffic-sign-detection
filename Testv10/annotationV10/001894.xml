@@ -1,0 +1,26 @@
+<annotation>
+	<folder>nltr</folder>
+	<filename>001894.jpg</filename>
+	<path>C:\Users\NEAR6\Desktop\nltr\001894.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>864</width>
+		<height>1390</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>No_left_turn</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>96</xmin>
+			<ymin>54</ymin>
+			<xmax>703</xmax>
+			<ymax>608</ymax>
+		</bndbox>
+	</object>
+</annotation>

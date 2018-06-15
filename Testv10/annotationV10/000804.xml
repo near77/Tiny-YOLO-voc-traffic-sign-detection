@@ -1,0 +1,26 @@
+<annotation>
+	<folder>90</folder>
+	<filename>000804.jpg</filename>
+	<path>C:\Users\NEAR6\Desktop\90\000804.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>259</width>
+		<height>194</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Speed_limit_30km</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>109</xmin>
+			<ymin>124</ymin>
+			<xmax>156</xmax>
+			<ymax>169</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>tlrr</folder>
+	<filename>001632.JPG</filename>
+	<path>C:\Users\NEAR6\Desktop\tlrr\001632.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>613</width>
+		<height>492</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Traffic_light_red</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>316</xmin>
+			<ymin>108</ymin>
+			<xmax>378</xmax>
+			<ymax>136</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>460r</folder>
+	<filename>000382.jpg</filename>
+	<path>C:\Users\NEAR6\Desktop\460r\000382.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>251</width>
+		<height>201</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Speed_limit_60km</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>210</xmin>
+			<ymin>86</ymin>
+			<xmax>236</xmax>
+			<ymax>112</ymax>
+		</bndbox>
+	</object>
+</annotation>

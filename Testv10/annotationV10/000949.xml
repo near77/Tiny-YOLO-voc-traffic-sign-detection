@@ -1,0 +1,26 @@
+<annotation>
+	<folder>gr</folder>
+	<filename>000949.JPG</filename>
+	<path>C:\Users\NEAR6\Desktop\gr\000949.JPG</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>637</width>
+		<height>610</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Traffic_light_green</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>68</xmin>
+			<ymin>34</ymin>
+			<xmax>287</xmax>
+			<ymax>125</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>110r</folder>
+	<filename>001266.jpg</filename>
+	<path>C:\Users\NEAR6\Desktop\110r\001266.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>198</width>
+		<height>254</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Speed_limit_110km</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>131</xmin>
+			<ymin>53</ymin>
+			<xmax>181</xmax>
+			<ymax>103</ymax>
+		</bndbox>
+	</object>
+</annotation>

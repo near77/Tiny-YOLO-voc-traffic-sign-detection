@@ -1,0 +1,26 @@
+<annotation>
+	<folder>5301_Fork_road</folder>
+	<filename>005305.jpg</filename>
+	<path>C:\Users\USER\Desktop\python\darkflow\train_images\5301_Fork_road\005305.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>720</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Fork_road</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>8</xmin>
+			<ymin>1</ymin>
+			<xmax>720</xmax>
+			<ymax>710</ymax>
+		</bndbox>
+	</object>
+</annotation>

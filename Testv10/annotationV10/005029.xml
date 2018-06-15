@@ -1,0 +1,26 @@
+<annotation>
+	<folder>5001_Double_bend_left</folder>
+	<filename>005029.jpg</filename>
+	<path>C:\Users\USER\Desktop\python\darkflow\train_images\5001_Double_bend_left\005029.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>248</width>
+		<height>203</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Double_bend_left</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>28</xmin>
+			<ymin>8</ymin>
+			<xmax>220</xmax>
+			<ymax>169</ymax>
+		</bndbox>
+	</object>
+</annotation>

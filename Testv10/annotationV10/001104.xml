@@ -1,0 +1,26 @@
+<annotation>
+	<folder>carr</folder>
+	<filename>001104.jpg</filename>
+	<path>C:\Users\NEAR6\Desktop\carr\001104.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>489</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>32</xmin>
+			<ymin>64</ymin>
+			<xmax>761</xmax>
+			<ymax>418</ymax>
+		</bndbox>
+	</object>
+</annotation>
