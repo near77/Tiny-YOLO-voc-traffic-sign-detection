@@ -23,18 +23,18 @@ def detection():
     font = cv2.FONT_HERSHEY_PLAIN
     results = tfnet.return_predict(frame)
     helpText="Press 'q' to Quit"
+    cv2.putText(frame, helpText, (11,20), font, 1.0, (32,32,32), 4, cv2.LINE_AA)
+    cv2.putText(frame, helpText, (10,20), font, 1.0, (240,240,240), 1, cv2.LINE_AA)
+    cv2.putText(frame,'FPS {:.1f}'.format(1 / (time.time() - stime)), (720,20), font, 1.0, (32,32,32), 4, cv2.LINE_AA)
+    cv2.putText(frame,'FPS {:.1f}'.format(1 / (time.time() - stime)), (719,20), font, 1.0, (240,240,240), 1, cv2.LINE_AA)
     for color, result in zip(colors, results):
         tl = (result['topleft']['x'], result['topleft']['y'])
         br = (result['bottomright']['x'], result['bottomright']['y'])
         label = result['label']
         confidence=("%.2f"%(result['confidence']*100))
-        cv2.putText(frame, helpText, (11,20), font, 1.0, (32,32,32), 4, cv2.LINE_AA)
-        cv2.putText(frame, helpText, (10,20), font, 1.0, (240,240,240), 1, cv2.LINE_AA)
         frame = cv2.rectangle(frame, tl, br, color, 7)
         frame = cv2.putText(frame, label+" "+str(confidence)+"%", tl, font, 1.0, (32,32,32), 4, cv2.LINE_AA)
         frame = cv2.putText(frame, label+" "+str(confidence)+"%", tl, font, 1.0, (240,240,240), 1, cv2.LINE_AA)
-        cv2.putText(frame,'FPS {:.1f}'.format(1 / (time.time() - stime)), (720,20), font, 1.0, (32,32,32), 4, cv2.LINE_AA)
-        cv2.putText(frame,'FPS {:.1f}'.format(1 / (time.time() - stime)), (719,20), font, 1.0, (240,240,240), 1, cv2.LINE_AA)
     cv2.imshow('PCDemo',frame)
     print('FPS {:.1f}'.format(1 / (time.time() - stime)))
 
