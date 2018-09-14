@@ -6,4 +6,15 @@ Features
 
 Demo
 ---
-![](https://github.com/near77/Tiny-YOLO-voc-traffic-sign-detection/pc.PNG)
+![image](https://github.com/near77/Tiny-YOLO-voc-traffic-sign-detection/blob/master/pc.PNG)
+![image](https://github.com/near77/Tiny-YOLO-voc-traffic-sign-detection/blob/master/PCDemo.PNG)
+
+Requirement
+---
+-Darkflow
+-Tensorflow
+-Opencv
+
+Language
+---
+-Python
