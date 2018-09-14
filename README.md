@@ -6,8 +6,9 @@ Features
 
 Demo
 ---
-![image](https://github.com/near77/Tiny-YOLO-voc-traffic-sign-detection/blob/master/pc.PNG)
-![image](https://github.com/near77/Tiny-YOLO-voc-traffic-sign-detection/blob/master/PCDemo.PNG)
+
+<img style="vertical-align:middle;" width="500" height="360" src="https://github.com/near77/Tiny-YOLO-voc-traffic-sign-detection/blob/master/pc.PNG"/>
+<img style="vertical-align:middle;" width="500" height="360" src="https://github.com/near77/Tiny-YOLO-voc-traffic-sign-detection/blob/master/PCDemo.PNG"/>
 
 Requirement
 ---
