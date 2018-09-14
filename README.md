@@ -2,7 +2,7 @@ Tiny-YOLO-voc-traffic-sign-detection
 ===
 Features
 ---
--User can detect traffic sign in real time.
+-   User can detect traffic sign in real time.
 
 Demo
 ---
@@ -12,10 +12,10 @@ Demo
 
 Requirement
 ---
--Darkflow
--Tensorflow
--Opencv
+-   Darkflow
+-   Tensorflow
+-   Opencv
 
 Language
 ---
--Python
+-   Python
