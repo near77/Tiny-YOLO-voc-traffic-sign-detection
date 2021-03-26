@@ -77,10 +77,12 @@ def read_cam(video_capture):
     cv2.imshow(windowName,frame)
     print('FPS {:.1f}'.format(1 / (time.time() - stime)))
 
+
+
 def play_music(label_name):
     if label_name != None:
         if label_name[:11]=="Speed_limit":
-            file='mp3/speed_limit.mp3' 
+            file='alert_audio_files/speed_limit.mp3' 
             pygame.mixer.init() 
             track = pygame.mixer.music.load(file)
             pygame.mixer.music.play()
@@ -88,70 +90,70 @@ def play_music(label_name):
             pygame.mixer.music.stop()
         elif label_name[:13]=="Traffic_light":
             print("gg")
-            file='mp3/traffic_light.mp3' 
+            file='alert_audio_files/traffic_light.mp3' 
             pygame.mixer.init() 
             track = pygame.mixer.music.load(file)
             pygame.mixer.music.play()
             time.sleep(1.25)
             pygame.mixer.music.stop()
         elif label_name=="Bend_to_left":
-            file='mp3/bend_to_left.mp3' 
+            file='alert_audio_files/bend_to_left.mp3' 
             pygame.mixer.init() 
             track = pygame.mixer.music.load(file)
             pygame.mixer.music.play()
             time.sleep(1.45)
             pygame.mixer.music.stop()
         elif label_name=="Bend_to_right":
-            file='mp3/bend_to_right.mp3' 
+            file='alert_audio_files/bend_to_right.mp3' 
             pygame.mixer.init() 
             track = pygame.mixer.music.load(file)
             pygame.mixer.music.play()
             time.sleep(2)
             pygame.mixer.music.stop()
         elif label_name[:11]=="Double_bend":
-            file='mp3/double_bend.mp3' 
+            file='alert_audio_files/double_bend.mp3' 
             pygame.mixer.init() 
             track = pygame.mixer.music.load(file)
             pygame.mixer.music.play()
             time.sleep(1.4)
             pygame.mixer.music.stop()
         elif label_name=="Fork_road":
-            file='mp3/fork_road.mp3' 
+            file='alert_audio_files/fork_road.mp3' 
             pygame.mixer.init() 
             track = pygame.mixer.music.load(file)
             pygame.mixer.music.play()
             time.sleep(1.4)
             pygame.mixer.music.stop()
         elif label_name=="Narrow_road":
-            file='mp3/narrow_road.mp3' 
+            file='alert_audio_files/narrow_road.mp3' 
             pygame.mixer.init() 
             track = pygame.mixer.music.load(file)
             pygame.mixer.music.play()
             time.sleep(1.45)
             pygame.mixer.music.stop()
         elif label_name=="No_entry":
-            file='mp3/no_entry.mp3' 
+            file='alert_audio_files/no_entry.mp3' 
             pygame.mixer.init() 
             track = pygame.mixer.music.load(file)
             pygame.mixer.music.play()
             time.sleep(1.4)
             pygame.mixer.music.stop()
         elif label_name=="No_left_turn":
-            file='mp3/no_left_turn.mp3' 
+            file='alert_audio_files/no_left_turn.mp3' 
             pygame.mixer.init() 
             track = pygame.mixer.music.load(file)
             pygame.mixer.music.play()
             time.sleep(1.55)
             pygame.mixer.music.stop()
         elif label_name=="No_right_turn":
-            file='mp3/no_right_turn.mp3' 
+            file='alert_audio_files/no_right_turn.mp3' 
             pygame.mixer.init() 
             track = pygame.mixer.music.load(file)
             pygame.mixer.music.play()
             time.sleep(1.5)
             pygame.mixer.music.stop()
         elif label_name=="No_u_turn":
-            file='mp3/no_u_turn.mp3' 
+            file='alert_audio_files/no_u_turn.mp3' 
             pygame.mixer.init() 
             track = pygame.mixer.music.load(file)
             pygame.mixer.music.play()
@@ -160,7 +162,6 @@ def play_music(label_name):
 
     else:
         print(label_name)
-
 
 class myThread (threading.Thread):
     def __init__(self, threadID, name, method, label_name):
@@ -196,12 +197,9 @@ if __name__ == '__main__':
     showFullScreen = False
     showWindow = 0
     showHelp = True
-    
 
     while True: 
-    
         read_cam(video_capture)
-    
         if flag:
             flag = False
             thread1 = myThread(1, "Thread-1", 'play_music', label_name)

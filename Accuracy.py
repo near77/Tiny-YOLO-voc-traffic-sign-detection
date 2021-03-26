@@ -19,7 +19,7 @@ label_name = None
 
 count = 0
 correct = 0
-for img , labeldir in zip(os.scandir('Testv10/V10'),os.scandir('Testv10/annotationV10')):
+for img , labeldir in zip(os.scandir('dataset/image'),os.scandir('dataset/label')):
     DOMTree = xml.dom.minidom.parse(labeldir.path)
     collection = DOMTree.documentElement
     labels = collection.getElementsByTagName("object")

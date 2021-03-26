@@ -62,10 +62,7 @@ def read_cam(video_capture):
                 frame = cv2.rectangle(frame, tl, br, color, 7)
                 frame = cv2.putText(frame, label+" "+str(confidence)+"%", tl, font, 1.0, (32,32,32), 4, cv2.LINE_AA)
                 frame = cv2.putText(frame, label+" "+str(confidence)+"%", tl, font, 1.0, (240,240,240), 1, cv2.LINE_AA)
-                
-
             cv2.imshow(windowName,frame)
-           
             if cv2.waitKey(25) & 0xFF == ord("q"):
                 cv2.destroyAllWindows()
                 break
