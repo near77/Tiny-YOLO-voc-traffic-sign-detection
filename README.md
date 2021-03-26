@@ -1,21 +1,27 @@
 Tiny-YOLO-voc-traffic-sign-detection
 ===
-Features
----
--   User can detect traffic sign in real time.
+## Description
+### Functionality
+User can use our code to detect 25 types of traffic signs in real time on following platforms:
+- PC
+- NVIDIA TX2
+- Raspberry Pi
+### Dataset
+About 2600 images and labels containing 25 types of traffic sign in Taiwan.
+The data is manually collected through Google Street View and Google Image Search.
 
-Demo
----
+## Requirement
+DarkFlow
+Tensorflow
+OpenCV
 
-<img style="vertical-align:middle;" width="500" height="360" src="https://github.com/near77/Tiny-YOLO-voc-traffic-sign-detection/blob/master/pc.PNG"/>
-<img style="vertical-align:middle;" width="500" height="360" src="https://github.com/near77/Tiny-YOLO-voc-traffic-sign-detection/blob/master/PCDemo.PNG"/>
+## Demo
+PC Demo
 
-Requirement
----
--   Darkflow
--   Tensorflow
--   Opencv
+![](https://i.imgur.com/ue5stlx.png)
 
-Language
----
--   Python
+![](https://i.imgur.com/03vqx3E.png)
+
+Raspberry Pi Demo
+
+![](https://i.imgur.com/1X9gukf.png)
