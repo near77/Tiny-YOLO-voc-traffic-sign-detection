@@ -17,7 +17,7 @@ results/
 backup/
 tfnet/yolo/parse-history.txt
 tfnet/yolo/*.parsed
-*.txt
+# *.txt
 !requirements*.txt
 *.pb
 /profile
