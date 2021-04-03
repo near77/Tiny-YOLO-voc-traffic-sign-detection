@@ -11,12 +11,12 @@ About 2600 images and labels containing 22 types of traffic sign, car, motorcycl
 The data is manually collected through Google Street View and Google Image Search.
 
 ## Requirement
-python3
-Tensorflow 1.15
-Tensorflow-gpu 1.15
-Cython
-DarkFlow
-OpenCV
+- python3
+- Tensorflow 1.15
+- Tensorflow-gpu 1.15
+- Cython
+- DarkFlow
+- OpenCV
 
 ## Training
 ```shell
